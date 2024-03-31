@@ -1,5 +1,9 @@
 <?php
 
+namespace App\Models;
+
+use PDO;
+
 class Product {
     public function getData(): array{
         $dsn = "mysql:host=localhost;dbname=product_db;charset=utf8;port=3306";
